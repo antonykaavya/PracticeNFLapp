@@ -1,0 +1,63 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+
+body {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin: 20px;
+  background-color: #D3D3D3;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+h1 {
+  text-align: center;
+}
+.button {
+    background-color: #D3D3D3;
+    border: 2px;
+  	border-style: solid;
+    color: black;
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 50%;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#AFC {
+	border-color: red;
+}
+
+#NFC {
+	border-color: blue;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
